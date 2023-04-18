@@ -1,9 +1,10 @@
 <template>
-	<main id="Home-page">
+	<main id="download-page">
 		<div class="logo">
-			<img :src="logoURL" alt="logo" /> <span class="material-icons">home</span>
+			<img :src="logoURL" alt="logo" /> <span class="material-icons">download</span>
+
 		</div>
-		<p>This is the home page</p>
+		<p>This is the download page</p>
 	</main>
 </template>
 
@@ -19,10 +20,12 @@ import logoURL from '/flowgo.png'
 		img {
 			width: 14rem;
 		}
-		.material-icons {
+        .material-icons {
 				font-size: 4rem;
                 color: var(--primary);
 			}
 			
 	}
+
+			
 </style>

@@ -16,26 +16,30 @@
 				<span class="material-icons">home</span>
 				<span class="text">Home</span>
 			</router-link>
+			<router-link to="/download" class="button">
+				<span class="material-icons">download</span>
+				<span class="text">Download</span>
+			</router-link>
 			<router-link to="/about" class="button">
 				<span class="material-icons">description</span>
-				<span class="text">About</span>
+				<span class="text">About Flow</span>
+			</router-link>
+			<router-link to="/story" class="button">
+				<span class="material-icons">import_contacts</span>
+				<span class="text">Our Story</span>
 			</router-link>
 			<router-link to="/team" class="button">
 				<span class="material-icons">group</span>
-				<span class="text">Team</span>
-			</router-link>
-			<router-link to="/contact" class="button">
-				<span class="material-icons">email</span>
-				<span class="text">Contact</span>
+				<span class="text">The Team</span>
 			</router-link>
 		</div>
 
 		<div class="flex"></div>
 		
 		<div class="menu">
-			<router-link to="/settings" class="button">
-				<span class="material-icons">settings</span>
-				<span class="text">Settings</span>
+			<router-link to="/contact" class="button">
+				<span class="material-icons">email</span>
+				<span class="text">Contact Us</span>
 			</router-link>
 		</div>
 	</aside>
@@ -93,6 +97,7 @@ aside {
 		.menu-toggle {
 			transition: 0.2s ease-in-out;
 			.material-icons {
+				
 				font-size: 2rem;
 				color: var(--light);
 				transition: 0.2s ease-out;
@@ -114,7 +119,7 @@ aside {
 
 	h3 {
 		color: var(--grey);
-		font-size: 1 rem;
+		font-size: 1.5rem;
 		margin-bottom: 0.5rem;
 		text-transform: uppercase;
 	}
@@ -136,6 +141,7 @@ aside {
 				transition: 0.2s ease-in-out;
 			}
 			.text {
+				font-size: 1.25rem;
 				color: var(--light);
 				transition: 0.2s ease-in-out;
 			}
